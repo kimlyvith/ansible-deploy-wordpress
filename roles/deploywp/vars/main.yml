@@ -1,0 +1,15 @@
+---
+# vars file for deploywp
+#System Settings
+php_modules: [ 'php-curl', 'php-gd', 'php-mbstring', 'php-xml', 'php-xmlrpc', 'php-soap', 'php-intl', 'php-zip' ]
+
+#MySQL Settings
+mysql_root_password: "admin@2021"
+mysql_db: "wordpress"
+mysql_user: "admin"
+mysql_password: "12345"
+
+#HTTP Settings
+http_host: "0.0.0.0"
+http_conf: "vhost-wp.conf"
+http_port: "80"
